@@ -4,7 +4,7 @@ const Footer = () => {
     let year =  new Date().getFullYear();
     console.log(year);
     return (
-        <footer>    
+        <footer className='text-center mt-5'>    
             <p>Copyright@ {year}</p>
         </footer>
     );
